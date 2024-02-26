@@ -5,3 +5,5 @@ console.log(typeof(nome));
 let idade = 20;
 console.log("Idade: " + idade);
 console.log(typeof(idade));
+
+console.log("IFRN")
