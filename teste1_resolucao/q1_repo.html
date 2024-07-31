@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Verificador de Números Primos</title>
 </head>
 <body>
-    <h1>Verificador de números primos</h1>
-    Insira um número inteiro positivo:
-    <input type="number" id="numero">
-    <input type="button" value="Verificar" onclick="verificar()">
+    <h1>Verificador de Números Primos</h1>
+    <form>
+        <label for="numero">Insira um número inteiro positivo:</label>
+        <input type="number" id="numero" min="1" required>
+        <button type="button" onclick="verificarPrimo()">Verificar</button>
+    </form>
     <p id="resultado"></p>
-    <p id="listagemprimos"></p>
+    <p id="primos"></p>
+
     <script src="q1_repo.js"></script>
 </body>
 </html>
